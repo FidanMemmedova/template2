@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 20px;
+    text-align: center;
+    padding: 15px 15px;
+    margin-left:20px;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    color: black;
+    background-color: #ccc;
+}
+header>button{
+    padding: 0 20px;
+    color: white;
+    background-color: black;
+}
+header>button:hover{
+background-color: red;
+color: #FFF;
+border: 0;
+cursor: pointer;
+}
+.more-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.more-content  a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.more-content  a:hover {
+    background-color: #ddd;
+}
+
+#home>img{
+    width: 100%;
+}    
+.hometext{
+    text-align: center;
+    margin-top: -115px;
+    color: #fff;
+}
+.hometext>h2{
+    font-weight: 400;
+}
+.hometext>p{
+    margin-top: 10px;
+}
+#band{
+    width: 100%;
+    height: 90vh;
+}
+.band_text{
+    margin: 0 360px;
+    padding-top: 135px;
+    text-align: center;
+    line-height: 1.4;
+}
+.band_text>h2{
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.band_text>h3{
+    margin-top: 25px;
+    color: #bbb; 
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+}
+.band_text>p{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+}
+.band_images{
+    margin-top: 80px;
+    margin-left: 333px;
+    margin-bottom: 80px;
+}
+.band_images ul li{
+    display: inline-block;
+    margin-left: 100px;   
+}
+.band_images img{
+    width: 154px;
+    height: 154px;
+}
+.band_images p{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+#tour{
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+}
+.tour_text{
+    margin: 0 360px;
+    padding-top: 100px;
+}
+.tour_text>h2{
+    color: white;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.tour_text>h3{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(203, 203, 203); 
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.tour_months{
+    background-color: white;
+    margin-top: 40px;
+}
+.tour_months li{
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #757575;
+    border-bottom: 1px solid rgb(203, 203, 203);  
+    list-style: none;
+}
+.tour_months span{
+    background-color: #F44336;
+    color: white;
+    margin-left: 10px;
+    padding: 0 5px;
+}
+.november>span{
+    background-color: black;
+    border-radius: 50%;
+    padding: 2px 9px;
+    margin-left: 655px;
+}
+.cities ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 30px;
+}
+.cities{
+    margin-top: 20px;
+    display: flex;
+}
+.cities-item{
+    background-color: white;
+    width: 33.33%;
+}
+.cities-item img{
+    width:100%;
+    height:184px ;
+}
+.text{
+    padding:16px;
+}
+.cities-item .text h3{
+    text-align: left;
+}
+.cities-item .text h3,h4{
+    margin-bottom: 15px;
+}
+.cities-item .text h4{
+    font-weight:400 ;
+    opacity: .6;
+    font-size: 15px;
+}
+.buytickets{
+    color: #fff;
+    background-color: black;
+    width: 134px;
+    height: 37px;
+   font-size: 15px; 
+   margin: 15px; 
+   border: 0;
+}
+.buytickets:hover{
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+#contact{
+    width: 100%;
+    height: 60vh;
+    padding-top: 60px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+#contact h2,h3{
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+#contact h3{
+    margin-top: 20px;
+    color: gray; 
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.contact_info{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_info_text{
+    width: 300px;
+}
+.contact_info_text div p{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+form{
+    
+    left: 770px;
+    top: 2405px;
+}
+input{
+    font-size: 15px;
+    
+    border: 1px solid gray;
+}
+.name,.email{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+}
+.email{
+    margin-left: 15px;
+}
+.message{
+    margin-top: 15px;
+    height:40px ;
+    width: 418px;
+    padding-left: 10px;
+}
+.sendbutton{
+    background-color: black;
+    color: #FFF;
+    /* left: 1117px;
+    top: 2520px; */
+    width: 72px;
+    height: 40px;
+    float: right;
+    margin-top: 10px;
+}
+.sendbutton:hover{
+    color: black;
+    background-color: gray;
+    border:0px;
+    cursor: pointer;
+}
+#map img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+footer{
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    margin-top:100px;
+}
+.icons>i{
+    color: gray;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.icons>i:hover{
+   color: #bbb;
+}
+
+
+
+
